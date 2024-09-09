@@ -1,0 +1,14 @@
+= Sudoku
+
+Une grille de sudoku se compose de 9x9 cases.
+Vous pouvez uniquement utiliser les chiffres de 1 à 9.
+
+- [*] Chaque bloc de 3×3 cases peut uniquement contenir les chiffres de 1 à 9.
+- [*] Chaque colonne verticale peut uniquement contenir les chiffres de 1 à 9.
+- [*] Chaque ligne horizontale peut uniquement contenir les chiffres de 1 à 9.
+- [*] Chaque bloc de 3x3 cases, chaque colonne verticale et chaque ligne horizontale ne peuvent contenir chaque chiffre qu'une seule fois.
+- [*] La partie est terminée lorsque toute la grille de sudoku est correctement remplie.
+
+== Ressources :
+- [*]  https://github.com/pivovarit/near-compile-time-sudoku/tree/main[pivovarit-sudoku]
+- [*] https://sudoku.com/fr/regles-du-sudoku/[Règles du sudoku]

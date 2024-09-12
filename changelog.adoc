@@ -1,0 +1,5 @@
+= ChangeLog
+
+== 2024-09-12
+- [*] Une grille de sudoku se compose de 9x9 cases.
+Voir link:src/test/java/org/jeux/sudoku/UneGrilleDeSudokuSeComposeDe9x9CasesTest.java[UneGrilleDeSudokuSeComposeDe9x9CasesTest]

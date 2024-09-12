@@ -1,6 +1,6 @@
 = Sudoku
 
-Une grille de sudoku se compose de 9x9 cases.
+Une grille de sudoku se compose de 9x9 case.
 Vous pouvez uniquement utiliser les chiffres de 1 à 9.
 
 - [*] Chaque bloc de 3×3 cases peut uniquement contenir les chiffres de 1 à 9.

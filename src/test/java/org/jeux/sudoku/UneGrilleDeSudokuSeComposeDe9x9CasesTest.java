@@ -19,6 +19,13 @@ class UneGrilleDeSudokuSeComposeDe9x9CasesTest {
     };
 
     @Test
+    void verifier_sudoku_null_retourne_false() {
+        Sudoku sudoku = new Sudoku();
+        sudoku.setGrille(null);
+        assertThat(sudoku.resoudre()).isFalse();
+    }
+
+    @Test
     void verifier_sudoku_vide_retourne_false() {
         Sudoku sudoku = new Sudoku();
         sudoku.setGrille(sudokuGrilleEmpty);

@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'jacoco-report-aggregation'
 }
 
 group = 'org.jeux'
@@ -39,4 +40,25 @@ test {
             println "Résumé des tests: ${result.testCount} tests, ${result.successfulTestCount} réussis, ${result.failedTestCount} échoués, ${result.skippedTestCount} ignorés"
         }
     }
+//    finalizedBy jacocoTestReport
 }
+reporting {
+    reports {
+        testCodeCoverageReport {
+            testType = TestSuiteType.UNIT_TEST
+        }
+    }
+}
+/*jacoco {
+    toolVersion = "0.8.12"
+}
+
+jacocoTestReport {
+    *//*reports {
+        xml.required = true
+        html.required = true
+    }
+    sourceDirectories.setFrom(files("${project.projectDir}/src/main"))
+    classDirectories.setFrom(files(sourceSets.main.output))*//*
+    dependsOn test
+}*/
